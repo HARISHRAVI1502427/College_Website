@@ -254,7 +254,7 @@ a {
 @media screen and (max-width: 768px) {
     img {
         height: 120vh; /* Makes the image take full viewport height */
-        object-fit: cover; /* Ensures the image covers the area without distortion */
+         /* Ensures the image covers the area without distortion */
     }
 }
 
