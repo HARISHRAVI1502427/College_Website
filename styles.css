@@ -249,11 +249,6 @@ a {
 .dropdown__sublink {
   background-color: var(--black-color-lighten);
 }
-img {
-    width: 100%;
-    height: auto; /* Ensures the image scales proportionally */
-    display: block;
-}
 
 /* Ensure full height on mobile */
 @media screen and (max-width: 768px) {
