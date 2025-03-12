@@ -146,9 +146,6 @@ a {
     opacity: 0;
     transition: top .4s, opacity .3s;
   }
-  img{
-    height:1200px;
-  }
   .nav__menu::-webkit-scrollbar {
     width: 0;
   }
@@ -261,7 +258,7 @@ img {
 /* Ensure full height on mobile */
 @media screen and (max-width: 768px) {
     img {
-        height: 100vh; /* Makes the image take full viewport height */
+        height: 120vh; /* Makes the image take full viewport height */
         object-fit: cover; /* Ensures the image covers the area without distortion */
     }
 }
@@ -277,18 +274,12 @@ img {
     padding-inline: 1rem;
   
 }
-  img{
-    height:1200px;
-  }
 }
 /* For large devices */
 @media screen and (min-width: 1118px) {
   .container {
     margin-inline: auto;
   }
-img{
-  height:1200px;
-}
   .nav {
     height: calc(var(--header-height) + 2rem);
     display: flex;
