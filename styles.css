@@ -261,6 +261,9 @@ a {
     padding-inline: 1rem;
   
 }
+  img{
+    height:800px;
+  }
 }
 /* For large devices */
 @media screen and (min-width: 1118px) {
