@@ -146,6 +146,9 @@ a {
     opacity: 0;
     transition: top .4s, opacity .3s;
   }
+  img{
+    height:1200px;
+  }
   .nav__menu::-webkit-scrollbar {
     width: 0;
   }
@@ -270,7 +273,9 @@ a {
   .container {
     margin-inline: auto;
   }
-
+img{
+  height:1200px;
+}
   .nav {
     height: calc(var(--header-height) + 2rem);
     display: flex;
