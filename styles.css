@@ -252,6 +252,19 @@ a {
 .dropdown__sublink {
   background-color: var(--black-color-lighten);
 }
+img {
+    width: 100%;
+    height: auto; /* Ensures the image scales proportionally */
+    display: block;
+}
+
+/* Ensure full height on mobile */
+@media screen and (max-width: 768px) {
+    img {
+        height: 100vh; /* Makes the image take full viewport height */
+        object-fit: cover; /* Ensures the image covers the area without distortion */
+    }
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
