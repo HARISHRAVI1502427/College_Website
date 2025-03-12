@@ -250,13 +250,6 @@ a {
   background-color: var(--black-color-lighten);
 }
 
-/* Ensure full height on mobile */
-@media screen and (max-width: 768px) {
-    img {
-        height: 120vh; /* Makes the image take full viewport height */
-         /* Ensures the image covers the area without distortion */
-    }
-}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
