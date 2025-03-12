@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7fc;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        h2 {
+            text-align: center;
+            color: #4CAF50;
+            padding: 20px;
+            margin-top: 0;
+            font-size: 32px;
+        }
+
+        /* List Styling */
+        .depart ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .depart
+        li {
+            background-color: #fff;
+            padding: 15px 30px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: calc(33.33% - 40px);
+            text-align: center;
+            transition: all 0.3s ease;
+            font-size: 16px;
+        }
+
+        .depart li:hover {
+            background-color: #4CAF50;
+            color: white;
+            transform: translateY(-5px);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .depart li {
+                width: calc(50% - 40px); /* 2 items per row */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .depart li {
+                width: calc(100% - 40px); /* 1 item per row */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container" >
+           <div class="nav__data" style="display:flex;justify-content:space-between;">
+              <a href="#" class="nav__logo" >
+                  <h1 style="font-size: 50px;">GAC</h1>
+                  <p style="font-size: 8px;">Goverment <br> Arts <br> College<br>Nandanam</p>
+              </a>
+              
+              <div class="nav__toggle" id="nav-toggle" class="ms-5">
+                 <i class="ri-menu-line nav__burger"></i>
+                 <i class="ri-close-line nav__close"></i>
+              </div>
+           </div>
+
+           <!--=============== NAV MENU ===============-->
+           <div class="nav__menu" id="nav-menu"  >
+              <ul class="nav__list">
+                 <li><a href="index.html" class="nav__link">Home</a></li>
+
+                 <li><a href="about.html" class="nav__link">About</a></li>
+
+                
+
+                 <!--=============== DROPDOWN 2 ===============-->
+                 <li class="dropdown__item">
+                    <div class="nav__link">
+                       Details<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+                       <li>
+                          <a href="department.html" class="dropdown__link">
+                             <i class="ri-user-line"></i> Department
+                          </a>                          
+                       </li>
+
+                       <li>
+                          <a href="courses.html" class="dropdown__link">
+                             <i class="ri-lock-line"></i> Courses
+                          </a>
+                       </li>
+
+                    </ul>
+                 </li>
+
+                 <li><a href="contactus.html" class="nav__link">Contact</a></li>
+              </ul>
+           </div>
+        </nav>
+     </header>
+     <div class="depart">
+
+    
+    <h2 style="margin-top: 80px;">Department Details</h2>
+    <ul>
+        <li>DEPARTMENT OF TAMIL</li>
+        <li>DEPARTMENT OF ENGLISH</li>
+        <li>DEPARTMENT OF HISTORICAL STUDIES</li>
+        <li>DEPARTMENT OF ECONOMICS</li>
+        <li>DEPARTMENT OF COMMERCE</li>
+        <li>DEPARTMENT OF COMMERCE (Corporate Secretaryship)</li>
+        <li>DEPARTMENT OF B.B.A BUSINESS ADMINISTRATION</li>
+        <li>DEPARTMENT OF MATHEMATICS</li>
+        <li>DEPARTMENT OF PHYSICS</li>
+        <li>DEPARTMENT OF CHEMISTRY</li>
+        <li>DEPARTMENT OF BOTANY</li>
+        <li>DEPARTMENT OF ZOOLOGY</li>
+        <li>DEPARTMENT OF COMPUTER SCIENCE</li>
+        <li>DEPARTMENT OF PUBLIC ADMINISTRATION</li>
+        <li>DEPARTMENT OF STATISTICS</li>
+        <li>LIBRARY</li>
+    </ul>
+</div>
+</body>
+<script src="main.js"></script>
+</html>

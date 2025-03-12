@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Government Arts College</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Page Header */
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            color: #4CAF50;
+            padding: 30px 15px;
+            background-color: #ffffff;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 28px;
+            text-align: center;
+            color: #4CAF50;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Container for Content */
+        .content {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Section Styling */
+        .section {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Paragraph Styling */
+        p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 32px;
+                padding: 20px;
+            }
+
+            h2 {
+                font-size: 24px;
+                padding: 12px;
+            }
+
+            .content {
+                padding: 15px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .section {
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 28px;
+                padding: 15px;
+            }
+
+            h2 {
+                font-size: 20px;
+                padding: 10px;
+            }
+
+            .content {
+                padding: 10px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .section {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container" >
+           <div class="nav__data" style="display:flex;justify-content:space-between;">
+              <div href="#" class="nav__logo" >
+                  <h1 style="font-size: 50px;background-color:hsl(220, 24%, 12%);padding: 5px;margin-top: 5px;">GAC</h1>
+                  <p style="font-size: 8px;color: #ffffff;">Goverment <br> Arts <br> College<br>Nandanam</p>
+              </div>
+              
+              <div class="nav__toggle" id="nav-toggle" class="ms-5">
+                 <i class="ri-menu-line nav__burger"></i>
+                 <i class="ri-close-line nav__close"></i>
+              </div>
+           </div>
+
+           <!--=============== NAV MENU ===============-->
+           <div class="nav__menu" id="nav-menu"  >
+              <ul class="nav__list">
+                 <li><a href="index.html" class="nav__link">Home</a></li>
+
+                 <li><a href="about.html" class="nav__link">About</a></li>
+
+                
+
+                 <!--=============== DROPDOWN 2 ===============-->
+                 <li class="dropdown__item">
+                    <div class="nav__link">
+                       Details<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+                       <li>
+                          <a href="department.html" class="dropdown__link">
+                             <i class="ri-user-line"></i> Department
+                          </a>                          
+                       </li>
+
+                       <li>
+                          <a href="courses.html" class="dropdown__link">
+                             <i class="ri-lock-line"></i> Courses
+                          </a>
+                       </li>
+
+                     
+                    </ul>
+                 </li>
+
+                 <li><a href="contactus.html" class="nav__link">Contact</a></li>
+              </ul>
+           </div>
+        </nav>
+     </header>
+    <div class="content" style="margin-top: 50px;">
+        <h1>About Us</h1>
+
+        <div class="section">
+            <p>Government Arts College, Nandanam, Chennai:600 035, had originated in the middle of the 18th century as a School, called Madrasa, and in 1901, it was upgraded into a College with the objective of accommodating Muslim students, which continued till it acquired its present status in 1948. Ever since, equal opportunity came to be extended to students of all communities, irrespective of religious denomination.</p>
+            <p>At its present location, it is well situated to serve the needs of the pupils settled in the central regions of the Metropolis. Though it is situated in Chennai, it draws students from the neighboring districts. A distinct character of the Institution is that it caters to the needs of the lower rungs of society.</p>
+        </div>
+
+        <h2>Vision and Mission</h2>
+        <div class="section">
+            <p>The Vision of the College is to create a prosperous nation with enlightened and socially responsible citizens. The Mission of the College is to produce disciplined, competent, socially committed, and morally upright intellectuals.</p>
+        </div>
+    </div>
+
+</body>
+<script src="main.js"></script>
+</html>
